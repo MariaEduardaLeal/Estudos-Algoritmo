@@ -241,6 +241,7 @@ Neste exemplo, cada vértice é representado por uma lista encadeada contendo se
 Portanto, as listas lineares, especialmente as listas encadeadas, são comumente usadas na representação de grafos, facilitando operações como adição, remoção e busca de conexões.
 
 # Pilhas: Estruturas de Dados LIFO
+![image](https://github.com/MariaEduardaLeal/Estudos-Algoritmo/assets/71770176/df01afd6-7574-4da6-9533-72692258074c)
 
 As pilhas são estruturas de dados fundamentais na computação que seguem o princípio LIFO (Last-In, First-Out), onde o último elemento inserido é o primeiro a ser removido. Aqui estão os principais pontos sobre pilhas:
 
@@ -302,6 +303,52 @@ stack.append(20)
 item_removido = stack.pop()  # Removendo elemento do topo da pilha
 print(f"{item_removido} foi o item removido")
 ```
+# Filas em Estruturas de Dados
+
+As filas são estruturas de dados que seguem o princípio FIFO (First In, First Out), ou seja, o primeiro elemento a ser inserido em uma fila é o primeiro a ser removido. Aqui estão alguns pontos-chave sobre filas:
+
+- Filas são casos especiais de listas.
+- Nas listas, quando precisávamos criar um novo elemento, poderíamos inseri-lo ou removê-lo de qualquer posição da lista, exemplos:
+  - Na primeira posição;
+  - Na última posição; ou
+  - Em qualquer parte no meio da lista.
+
+## Filas
+
+- Numa fila seguida: existe uma regra básica a ser:
+  - Primeiro a Chegar é o Primeiro a Sair;
+  - Do inglês: FIFO (First In, First Out).
+- Um novo elemento da fila somente pode ser inserido na última posição (fim da fila).
+- Um elemento só pode ser removido da primeira posição (início da fila).
+
+## Implementação de Filas:
+
+- Em linguagens como C e Python, as filas podem ser implementadas utilizando estruturas de dados como listas encadeadas ou vetores.
+- Em C, a implementação de filas pode envolver alocação dinâmica de memória para os elementos da fila e manipulação de ponteiros para controlar o início e o fim da fila.
+- Em Python, a estrutura de lista facilita a implementação de filas de forma mais simples e dinâmica.
+
+## Operações em Filas:
+
+- As operações básicas em uma fila incluem a inserção de elementos (enqueue) e a remoção de elementos (dequeue).
+- Além disso, é comum ter operações para verificar se a fila está vazia, acessar o elemento no início da fila (front), e obter o tamanho da fila.
+
+## Utilização de Filas:
+
+- As filas são amplamente utilizadas em algoritmos e aplicações que requerem processamento de dados de forma sequencial, como simulações, sistemas de gerenciamento de tarefas, entre outros.
+- Exemplos práticos de filas incluem a simulação de filas de espera em sistemas de atendimento e o controle de tarefas em sistemas operacionais.
+
+## Estruturas Relacionadas:
+
+- Além das filas, outras estruturas de dados como pilhas (stacks) e listas encadeadas são fundamentais para a organização e manipulação eficiente de dados em algoritmos e programas.
+
+Em resumo, as filas são estruturas de dados essenciais que seguem a lógica FIFO, sendo úteis em diversas aplicações computacionais que exigem o processamento ordenado de elementos.
+![image](https://github.com/MariaEduardaLeal/Estudos-Algoritmo/assets/71770176/5b6a4006-1bd6-4af5-8be6-db36072abcc8)
+![image](https://github.com/MariaEduardaLeal/Estudos-Algoritmo/assets/71770176/510fdbbf-cb53-4e84-8149-a7f3f16615d1)
+![image](https://github.com/MariaEduardaLeal/Estudos-Algoritmo/assets/71770176/070f2a1a-d29e-4586-888a-b1c04b775304)
+![image](https://github.com/MariaEduardaLeal/Estudos-Algoritmo/assets/71770176/61147f88-3735-4a8d-862d-d821bd2f73ce)
+![image](https://github.com/MariaEduardaLeal/Estudos-Algoritmo/assets/71770176/f2b9b2d4-1fe9-40f4-9daa-eb11d2f5c939)
+![image](https://github.com/MariaEduardaLeal/Estudos-Algoritmo/assets/71770176/f4427328-338e-4788-a6e0-20a519694ac1)
+
 
 
 #Sites que podem ser importantes:
@@ -319,3 +366,8 @@ https://pt.khanacademy.org/computing/computer-science/algorithms/breadth-first-s
 https://dev.to/iamjose/explorando-estruturas-de-dados-em-java-pilhas-e-filas-dc3
 https://growthcode.com.br/algoritmos/pilha-estrutura-de-dados/
 https://www.cos.ufrj.br/~rfarias/cos121/pilhas.html
+https://www.linkedin.com/pulse/algoritmos-e-estrutura-de-dados-pilhas-bruno-botelho-de-souza/?originalSubdomain=pt
+-- Filas
+http://docente.ifsc.edu.br/vilson.junior/ed/04_Listas_Filas_Pilhas.pdf 
+https://gabrielbueno072.github.io/rea-aed/aula_pilha_fila.html
+https://www.ime.usp.br/~pf/algoritmos/aulas/fila.html
