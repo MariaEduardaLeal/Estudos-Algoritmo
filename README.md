@@ -144,3 +144,67 @@ int main() {
 - **Reinicialização:** Permite reiniciar a lista, removendo todos os elementos e preparando-a para um novo uso.
 
 Em resumo, as listas lineares sequenciais são estruturas de dados simples e eficientes, ideais para situações em que a ordem de inserção e a sequencialidade dos elementos são importantes. Elas facilitam operações de manipulação de dados, como inserção, remoção e busca, devido à sua organização contígua e ordenada na memória.
+
+
+
+# Listas Lineares Encadeadas
+
+As listas lineares encadeadas são estruturas de dados que diferem das listas lineares sequenciais, como vetores, por não manterem seus elementos em posições contíguas de memória. Em uma lista encadeada, cada elemento, ou nó, contém um link para o próximo elemento na lista, permitindo inserções e remoções eficientes sem a necessidade de rearranjar os demais elementos. Essa estrutura é implementada através de ponteiros, onde cada nó guarda o endereço do próximo nó na sequência.
+
+Uma vantagem significativa das listas encadeadas sobre as sequenciais é a eficiência nas operações de inserção e remoção, pois não exigem o deslocamento de todos os elementos da lista. Além disso, as listas encadeadas não requerem a previsão do número de elementos antecipadamente, pois o espaço é alocado dinamicamente durante a execução do programa.
+
+Existem diferentes tipos de listas encadeadas, como simplesmente encadeadas, duplamente encadeadas e circulares, cada uma com suas características específicas. Por exemplo, em listas duplamente encadeadas, cada nó possui referências tanto para o próximo quanto para o nó anterior, facilitando a navegação em ambas as direções.
+
+Essas estruturas são amplamente utilizadas em programação devido à sua flexibilidade e eficiência em lidar com operações de manipulação de dados, como inserções, remoções e buscas.
+
+![conceito](https://github.com/MariaEduardaLeal/Estudos-Algoritmo/assets/71770176/cc0dadf6-aacf-487d-aa8a-b90f4f4b37bb)
+
+## Inserção de Dados em Listas Encadeadas
+
+A inserção de um elemento em uma lista linear encadeada é realizada de forma eficiente e flexível, sem a necessidade de realocar todos os elementos da lista. Para inserir um novo elemento em uma lista encadeada, segue-se um procedimento padrão que envolve a criação de um novo nó, a atualização dos ponteiros e a reorganização dos links na estrutura da lista. Aqui está um resumo do processo de inserção em uma lista linear encadeada:
+
+### Criação do Novo Nó:
+
+- Um novo nó é alocado na memória para armazenar o elemento a ser inserido.
+
+### Atualização dos Ponteiros:
+
+- O novo nó é configurado com o valor do elemento a ser inserido.
+- O ponteiro do novo nó é ajustado para apontar para o nó que atualmente é o primeiro da lista.
+
+### Atualização do Ponteiro da Cabeça:
+
+- O ponteiro da cabeça da lista é redirecionado para apontar para o novo nó, tornando-o o primeiro elemento da lista.
+
+### Conclusão da Inserção:
+
+- Após esses passos, o novo elemento foi inserido com sucesso no início da lista encadeada.
+
+Esse processo de inserção em uma lista linear encadeada é eficiente, pois não requer a movimentação de todos os elementos existentes na lista, apenas a atualização de alguns ponteiros. Isso torna as operações de inserção e remoção mais ágeis em comparação com estruturas de dados sequenciais, como arrays, especialmente em cenários onde a lista pode crescer ou diminuir dinamicamente.
+![insercao-lista-encadeda](https://github.com/MariaEduardaLeal/Estudos-Algoritmo/assets/71770176/c7c30352-b93b-4435-93d2-2b699ac592f4)
+
+## Remoção de Elementos em Listas Encadeadas
+
+A remoção de um elemento em uma lista linear encadeada é um processo que envolve ajustar os ponteiros adequadamente para manter a integridade da estrutura da lista. Aqui está um resumo do procedimento para remover um elemento de uma lista linear encadeada:
+
+### Localização do Elemento a Ser Removido:
+
+- Percorre-se a lista linear encadeada até encontrar o elemento que se deseja remover.
+
+### Atualização dos Ponteiros:
+
+- O ponteiro do nó anterior ao nó a ser removido é redirecionado para apontar para o nó seguinte ao nó a ser removido.
+- O nó a ser removido é desvinculado da lista, liberando a memória alocada para ele.
+
+### Liberação de Memória:
+
+- Após a remoção do nó, é importante liberar a memória alocada para ele para evitar vazamentos de memória.
+
+### Conclusão da Remoção:
+
+- Após esses passos, o elemento é removido com sucesso da lista linear encadeada.
+
+Esse processo de remoção em uma lista linear encadeada é eficiente, pois não requer a movimentação de todos os elementos da lista, apenas a atualização dos ponteiros necessários. Isso torna as operações de remoção ágeis e eficazes, mantendo a estrutura da lista consistente e organizada.
+
+
+
