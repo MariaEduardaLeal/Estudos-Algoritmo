@@ -240,6 +240,70 @@ Neste exemplo, cada vértice é representado por uma lista encadeada contendo se
 
 Portanto, as listas lineares, especialmente as listas encadeadas, são comumente usadas na representação de grafos, facilitando operações como adição, remoção e busca de conexões.
 
+# Pilhas: Estruturas de Dados LIFO
+
+As pilhas são estruturas de dados fundamentais na computação que seguem o princípio LIFO (Last-In, First-Out), onde o último elemento inserido é o primeiro a ser removido. Aqui estão os principais pontos sobre pilhas:
+
+## Funcionamento:
+
+- Em uma pilha, os elementos são adicionados e removidos apenas em uma extremidade, chamada de topo.
+- A operação de adicionar um elemento é chamada de "push", enquanto a remoção é chamada de "pop".
+- O elemento mais recentemente adicionado é o primeiro a ser removido, seguindo a ordem LIFO.
+
+## Aplicações:
+
+- Pilhas são amplamente utilizadas em diversas áreas da computação, como análise de expressões matemáticas, algoritmos de backtracking, histórico de navegação em navegadores web e chamadas de função em linguagens de programação.
+- São essenciais para implementar a funcionalidade "Desfazer" em editores de texto, permitindo reverter ações na ordem inversa em que foram realizadas.
+
+## Implementação:
+
+- Uma pilha pode ser implementada utilizando arrays ou listas encadeadas, onde o topo da pilha é controlado para adicionar e remover elementos.
+- Operações comuns em pilhas incluem verificar se está vazia, ver o elemento no topo sem removê-lo e manipular elementos apenas no topo.
+
+## Exemplo de Uso:
+
+- Ao pensar em uma pilha de pratos em uma cozinha, onde os pratos são empilhados e removidos do topo, podemos visualizar o funcionamento básico de uma pilha de dados na programação.
+
+Essas estruturas de dados são cruciais para muitas aplicações computacionais, fornecendo uma maneira eficiente de gerenciar dados de forma organizada e seguindo uma ordem específica de inserção e remoção.
+
+### Exemplos de Criação e Manipulação de Pilhas em C e Python
+
+#### Em C:
+
+**Criação da Pilha em C:**
+
+```c
+Stack* pilha; // Declarando variável do tipo Stack
+pilha = new(); // Criando uma Pilha
+```
+
+**Inserção e Remoção de Valores na Pilha em C:**
+```c
+push(pilha, 10); // Adicionando valores à pilha
+push(pilha, 20);
+float item_removido = pop(pilha); // Removendo valor da pilha
+```
+
+#### Em Python:
+
+**Criação e Manipulação de Pilha em Python:**
+```python
+stack = [3, 4, 5]  # Criando uma pilha em Python
+stack.append(6)  # Adicionando um item ao topo da pilha
+stack.append(7)
+stack.pop()  # Removendo um item do topo da pilha
+```
+
+**Exemplo de Utilização de Pilha em Python:**
+```python
+stack = []  # Inicializando uma pilha vazia
+stack.append(10)  # Adicionando elementos à pilha
+stack.append(20)
+item_removido = stack.pop()  # Removendo elemento do topo da pilha
+print(f"{item_removido} foi o item removido")
+```
+
+
 #Sites que podem ser importantes:
 -- Listas
 https://www.alura.com.br/artigos/estruturas-de-dados-introducao
@@ -250,5 +314,8 @@ https://www.youtube.com/watch?v=RW0oD2L_tSg&t=917s
 -- Grafos
 https://www.ime.usp.br/~pf/algoritmos_para_grafos/aulas/graphdatastructs.html
 https://www.youtube.com/watch?v=6YP0VGElhR8&t=303s
+https://pt.khanacademy.org/computing/computer-science/algorithms/breadth-first-search/a/breadth-first-search-and-its-uses
 -- Pilhas
 https://dev.to/iamjose/explorando-estruturas-de-dados-em-java-pilhas-e-filas-dc3
+https://growthcode.com.br/algoritmos/pilha-estrutura-de-dados/
+https://www.cos.ufrj.br/~rfarias/cos121/pilhas.html
