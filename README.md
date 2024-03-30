@@ -352,22 +352,29 @@ Em resumo, as filas são estruturas de dados essenciais que seguem a lógica FIF
 
 
 #Sites que podem ser importantes:
--- Listas
+
+- Listas
 https://www.alura.com.br/artigos/estruturas-de-dados-introducao
 https://www.cos.ufrj.br/~rfarias/cos121/aula_11.html
 https://blog.grancursosonline.com.br/estrutura-de-dados-estrututra-lineares/
 https://www.youtube.com/watch?v=rsRNu8-v0_0&list=PLrOyM49ctTx-l7WTi99OG6ZXxE5FCzPJi&index=4
 https://www.youtube.com/watch?v=RW0oD2L_tSg&t=917s
--- Grafos
+
+
+- Grafos
 https://www.ime.usp.br/~pf/algoritmos_para_grafos/aulas/graphdatastructs.html
 https://www.youtube.com/watch?v=6YP0VGElhR8&t=303s
 https://pt.khanacademy.org/computing/computer-science/algorithms/breadth-first-search/a/breadth-first-search-and-its-uses
--- Pilhas
+
+
+- Pilhas
 https://dev.to/iamjose/explorando-estruturas-de-dados-em-java-pilhas-e-filas-dc3
 https://growthcode.com.br/algoritmos/pilha-estrutura-de-dados/
 https://www.cos.ufrj.br/~rfarias/cos121/pilhas.html
 https://www.linkedin.com/pulse/algoritmos-e-estrutura-de-dados-pilhas-bruno-botelho-de-souza/?originalSubdomain=pt
--- Filas
+
+
+- Filas
 http://docente.ifsc.edu.br/vilson.junior/ed/04_Listas_Filas_Pilhas.pdf 
 https://gabrielbueno072.github.io/rea-aed/aula_pilha_fila.html
 https://www.ime.usp.br/~pf/algoritmos/aulas/fila.html
